@@ -31,3 +31,8 @@ void TurmaHor::setHorarioUCturma(const std::__cxx11::list <Slot> &horarioUCturma
 
 TurmaHor::TurmaHor() {}
 
+TurmaHor::TurmaHor(const string &codUc, const string &codTurma, const list<Slot> &horarioUCturma) : codUC(codUc),
+                                                                                                    codTurma(codTurma),
+                                                                                                    horarioUCturma(
+                                                                                                            horarioUCturma) {}
+

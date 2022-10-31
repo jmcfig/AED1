@@ -9,11 +9,8 @@
 int main() {
 
    GestaoHor hor;
-   hor.lerDados("C:\\Users\\jmigu\\CLionProjects\\aed\\code\\dados\\classes.csv");
+   hor.lerDados();
    cout << "--------------------------------------------------------------------" <<endl;
-   hor.lerDados("C:\\Users\\jmigu\\CLionProjects\\aed\\code\\dados\\classes_per_uc.csv");
-   cout << "--------------------------------------------------------------------" <<endl;
-   hor.lerDados("C:\\Users\\jmigu\\CLionProjects\\aed\\code\\dados\\students_classes.csv");
 
     return 0;
 }

@@ -17,21 +17,16 @@ class TurmaHor {
 
 private:
     string codUC;
+
 public:
-
-
     TurmaHor();
+    TurmaHor(const string &codUc, const string &codTurma, const list<Slot> &horarioUCturma);
 
     const string &getCodUc() const;
-
     void setCodUc(const string &codUc);
-
     const string &getCodTurma() const;
-
     void setCodTurma(const string &codTurma);
-
     const list<Slot> &getHorarioUCturma() const;
-
     void setHorarioUCturma(const list<Slot> &horarioUCturma);
 
 private:

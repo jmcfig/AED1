@@ -16,24 +16,17 @@ using namespace std;
 class Estudante {
 
 public:
-    Estudante(const string &numeroUp, const string &nome, const list<UCTurma> &turmas, const queue<Pedido> &pedidos);
-
     Estudante();
+    Estudante(const string &numeroUp, const string &nome, const list<UCTurma> &turmas);
 
     const string &getNumeroUp() const;
-
     void setNumeroUp(const string &numeroUp);
-
     const string &getNome() const;
-
     void setNome(const string &nome);
-
     const list<UCTurma> &getTurmas() const;
-
     void setTurmas(const list<UCTurma> &turmas);
-
+    void appendTurma(UCTurma uct);
     const queue<Pedido> &getPedidos() const;
-
     void setPedidos(const queue<Pedido> &pedidos);
 
 

@@ -6,6 +6,8 @@
 
 Slot::Slot() {}
 
+
+
 const string &Slot::getDia() const {
     return dia;
 }
@@ -37,5 +39,11 @@ const string &Slot::getTipo() const {
 void Slot::setTipo(const string &tipo) {
     Slot::tipo = tipo;
 }
+
+Slot::Slot(const string &dia, const string &horaInicio, const string &horaFim, const string &tipo) : dia(dia),
+                                                                                                     horaInicio(
+                                                                                                             horaInicio),
+                                                                                                     horaFim(horaFim),
+                                                                                                     tipo(tipo) {}
 
 

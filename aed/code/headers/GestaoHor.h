@@ -19,27 +19,19 @@ using namespace std;
 class GestaoHor {
 
 public:
-
-
     GestaoHor();
+    GestaoHor(const set<Estudante> &estudantes, const vector<TurmaHor> &horario);
 
     const set<Estudante> &getEstudantes() const;
-
     void setEstudantes(const set<Estudante> &estudantes);
-
     const vector<TurmaHor> &getHorario() const;
-
     void setHorario(const vector<TurmaHor> &horario);
+    void lerDados();
 
-    void lerDados(string fname);
-
-    void testf();
 
 private:
     set<Estudante> estudantes;
     vector<TurmaHor> horario;
-
-
 };
 
 

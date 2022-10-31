@@ -11,17 +11,14 @@ using namespace std;
 
 class UCTurma {
 
-private:
+
 public:
     UCTurma();
+    UCTurma(const string &codUc, const string &codTurma);
 
-public:
     const string &getCodUc() const;
-
     void setCodUc(const string &codUc);
-
     const string &getCodTurma() const;
-
     void setCodTurma(const string &codTurma);
 
 private:

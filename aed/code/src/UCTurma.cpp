@@ -21,3 +21,5 @@ void UCTurma::setCodTurma(const string &codTurma) {
 }
 
 UCTurma::UCTurma() {}
+
+UCTurma::UCTurma(const string &codUc, const string &codTurma) : codUC(codUc), codTurma(codTurma) {}
