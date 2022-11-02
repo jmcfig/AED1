@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/jmigu/CLionProjects/AED/aed/code/src/main.cpp" "CMakeFiles/untitled.dir/code/src/main.cpp.obj" "gcc" "CMakeFiles/untitled.dir/code/src/main.cpp.obj.d"
+  "C:/Users/diogo/OneDrive/Área de Trabalho/AED-main/AED-main/aed/code/src/main.cpp" "CMakeFiles/untitled.dir/code/src/main.cpp.obj" "gcc" "CMakeFiles/untitled.dir/code/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

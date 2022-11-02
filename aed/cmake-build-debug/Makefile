@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jmigu\CLionProjects\AED\aed
+CMAKE_SOURCE_DIR = "C:\Users\diogo\OneDrive\Área de Trabalho\AED-main\AED-main\aed"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jmigu\CLionProjects\AED\aed\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\diogo\OneDrive\Área de Trabalho\AED-main\AED-main\aed\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jmigu\CLionProjects\AED\aed\cmake-build-debug\CMakeFiles C:\Users\jmigu\CLionProjects\AED\aed\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\diogo\OneDrive\Área de Trabalho\AED-main\AED-main\aed\cmake-build-debug\CMakeFiles" "C:\Users\diogo\OneDrive\Área de Trabalho\AED-main\AED-main\aed\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jmigu\CLionProjects\AED\aed\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\diogo\OneDrive\Área de Trabalho\AED-main\AED-main\aed\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

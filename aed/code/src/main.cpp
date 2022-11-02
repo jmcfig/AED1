@@ -1,14 +1,14 @@
 #include <iostream>
-#include "../headers/GestaoHor.h"
-#include "../src/GestaoHor.cpp"
-#include "../headers/Estudante.h"
-#include "../src/Estudante.cpp"
+#include "../headers/ScheduleManage.h"
+#include "../src/ScheduleManage.cpp"
+#include "../headers/Student.h"
+#include "../src/Student.cpp"
 
 
 
 int main() {
 
-   GestaoHor hor;
+   ScheduleManage hor;
    hor.lerDados();
    cout << "--------------------------------------------------------------------" <<endl;
 
