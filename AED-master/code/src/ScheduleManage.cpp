@@ -7,7 +7,6 @@
 #include <sstream>
 #include <fstream>
 #include <iostream>
-
 #include "../src/Slot.cpp"
 #include "../src/Student.cpp"
 #include "../src/ClassUC.cpp"
@@ -55,7 +54,7 @@ void ScheduleManage::getClassesData() {
             Slot slot = Slot(day, start, duration, type);
 
 
-            if (temp[1] != previousUC) {
+            if (ucCode != previousUC) {
 
                 allUC_.push_back(ClassUC(ucCode,classCode,{slot}));
 

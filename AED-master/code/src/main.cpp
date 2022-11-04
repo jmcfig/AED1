@@ -3,14 +3,22 @@
 
 #include <iostream>
 #include "../headers/ScheduleManage.h"
-
 #include "../src/ScheduleManage.cpp"
-
+#include "../src/Menu.cpp"
+#include "../headers/Menu.h"
 
 
 int main() {
 
     ScheduleManage test;
+    test.getClassesData();
+    test.getStudentsData();
+
+    Menu menu;
+    menu.start();
+
+
+}
     /*
     test.getClassesData();
     cout << "--------------------------------------------------------------------" <<endl;
@@ -26,7 +34,7 @@ int main() {
     }
 
     cout << "----------------------------------------------------\n----------------------------------------------------\n";
-*/
+
     test.getClassesData();
     test.getStudentsData();
     for (Student e : test.getStudents()) {
@@ -45,3 +53,4 @@ int main() {
 
     return 0;
 }
+*/

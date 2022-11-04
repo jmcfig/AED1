@@ -165,4 +165,7 @@ CMakeFiles/untitled.dir/code/src/main.cpp.obj: \
  C:/Users/jmigu/CLionProjects/AED-master/code/src/Student.cpp \
  C:/Users/jmigu/CLionProjects/AED-master/code/headers/Student.h \
  C:/Users/jmigu/CLionProjects/AED-master/code/src/ClassUC.cpp \
- C:/Users/jmigu/CLionProjects/AED-master/code/headers/ClassUC.h
+ C:/Users/jmigu/CLionProjects/AED-master/code/headers/ClassUC.h \
+ C:/Users/jmigu/CLionProjects/AED-master/code/src/Menu.cpp \
+ C:/Users/jmigu/CLionProjects/AED-master/code/headers/Menu.h \
+ C:/Users/jmigu/CLionProjects/AED-master/code/headers/Menu.h

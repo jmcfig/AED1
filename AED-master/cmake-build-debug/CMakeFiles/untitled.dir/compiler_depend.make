@@ -167,7 +167,10 @@ CMakeFiles/untitled.dir/code/src/main.cpp.obj: ../code/src/main.cpp \
   ../code/src/Student.cpp \
   ../code/headers/Student.h \
   ../code/src/ClassUC.cpp \
-  ../code/headers/ClassUC.h
+  ../code/headers/ClassUC.h \
+  ../code/src/Menu.cpp \
+  ../code/headers/Menu.h \
+  ../code/headers/Menu.h
 
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits:
@@ -495,3 +498,7 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32
 ../code/src/Slot.cpp:
 
 ../code/src/ClassUC.cpp:
+
+../code/src/Menu.cpp:
+
+../code/headers/Menu.h:
