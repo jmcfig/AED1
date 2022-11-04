@@ -10,10 +10,6 @@
 
 int main() {
 
-    ScheduleManage test;
-    test.getClassesData();
-    test.getStudentsData();
-
     Menu menu;
     menu.start();
 
