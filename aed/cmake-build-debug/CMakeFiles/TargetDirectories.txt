@@ -1,3 +1,0 @@
-C:/Users/diogo/OneDrive/Área de Trabalho/AED-main/AED-main/aed/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/diogo/OneDrive/Área de Trabalho/AED-main/AED-main/aed/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/diogo/OneDrive/Área de Trabalho/AED-main/AED-main/aed/cmake-build-debug/CMakeFiles/rebuild_cache.dir
